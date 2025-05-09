@@ -72,7 +72,7 @@ const buttonStyle = {
   width: '100%',
   padding: '10px',
   backgroundColor: 'purple',
-  color: 'black ',
+  color: 'white ',
   marginBottom: '10px',
   borderRadius: '8px',
 };
