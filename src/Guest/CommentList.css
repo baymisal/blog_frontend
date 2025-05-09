@@ -1,0 +1,48 @@
+.comment-section {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .comment-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    transition: transform 0.2s ease;
+  }
+  
+  .comment-card:hover {
+    transform: scale(1.02);
+    border-color: #bbb;
+  }
+  
+  .comment-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Animations */
+  .fade-enter {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  

@@ -1,0 +1,34 @@
+
+.header{
+    color: rgb(189, 125, 125);
+    font-size: 30px;
+    background: transparent;
+}
+
+.welcome {
+    
+    background-size: cover;
+    background-position: center;
+    background-image: url('pexels-karolina-grabowska-4207794.jpg');
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(189, 125, 125);
+    text-align: center;
+  }
+  
+  .welcome-text h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  
+ 
+.footer{
+    text-align: center;
+    color: rgb(189, 125, 125);
+    text-decoration: underline;
+}
+  

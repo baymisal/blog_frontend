@@ -1,0 +1,25 @@
+.Admin-bg{
+    height: 95vh;
+    background-color: thistle;
+    padding-top: 160px;
+    border-radius: 8px;
+}
+.Admin-bg-2{
+    height: 95vh;
+    background-color: thistle;
+    /* margin-top: 20px; */
+    padding-top: 8px;
+    border-radius: 8px;
+}
+.card-header-1{
+    background-color: rgb(182, 139, 135);
+    text-align: center;
+}
+.btn-Admin{
+    color: aliceblue;
+    background-color: rgb(182, 139, 135);
+    width: 100%;
+}
+.btn-Admin:hover{
+    background-color: rgb(80, 53, 80);
+}
