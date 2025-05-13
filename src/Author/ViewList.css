@@ -5,6 +5,11 @@
     padding: 30px;
 }
 
+@media only screen and (max-width : 553px){
+    .container-view{
+        width: auto;
+    }
+}
   
   
 /* }
