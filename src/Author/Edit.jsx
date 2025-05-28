@@ -23,7 +23,7 @@ const Edit = () => {
         });
       })
       .catch((err) => {
-        console.error('❌ Error fetching blog:', err);
+        console.error('Error fetching blog:', err);
         alert('Failed to load blog. Try again.');
       });
   }, [blogId]);
@@ -32,11 +32,11 @@ const Edit = () => {
     e.preventDefault();
     axiosInstance.put(`/${blogId}`, blog)
       .then(() => {
-        alert('✅ Blog Updated Successfully');
+        alert('Blog Updated Successfully');
         navigate('/author/viewlist')
       })
       .catch((err) => {
-        console.error('❌ Error updating blog:', err);
+        console.error('Error updating blog:', err);
         alert('You are not authorized or not logged in.');
       });
   };

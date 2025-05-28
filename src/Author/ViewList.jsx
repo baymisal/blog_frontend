@@ -18,7 +18,7 @@ const ViewList = () => {
       const response = await axiosInstance.get('/');
       setBlogs(response.data);
     } catch (error) {
-      console.error("❌ Error fetching blogs:", error);
+      console.error(" Error fetching blogs:", error);
       setError('Failed to load blogs');
     }
   };
@@ -28,7 +28,7 @@ const ViewList = () => {
       await axiosInstance.delete(`/${id}`);
       setBlogs(blogs.filter(blog => blog.id !== id));
     } catch (error) {
-      console.error('❌ Error deleting blog:', error);
+      console.error(' Error deleting blog:', error);
     }
   };
 

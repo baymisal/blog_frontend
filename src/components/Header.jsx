@@ -30,9 +30,9 @@ function Header() {
           </li>
           {/* {user?.role && (
             <li className="nav-item">
-              <button className="btn btn-sm btn-outline-danger ms-3" onClick={logout}>
-                Logout
-              </button>
+            <button className="btn btn-sm btn-outline-danger ms-3" onClick={logout}>
+            Logout
+            </button>
             </li> */}
           {/* )} */}
         </ul>
@@ -40,6 +40,7 @@ function Header() {
     </nav>
   );
 }
+   
 
 export default Header;
 
