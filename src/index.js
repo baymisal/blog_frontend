@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { AuthProvider } from "./context/AuthContext"; // Make sure the path is correct
+import { AuthProvider } from "./context/AuthContext"; 
 import { GlobalProvider } from './context/GlobalContext';
 
 ReactDOM.render(

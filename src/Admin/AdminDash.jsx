@@ -8,7 +8,7 @@ const AdminDash = () => {
 
     useEffect(() => {
         if (role !== "admin") {
-            console.log("⛔ Access Denied! Redirecting to /guest...");
+            console.log("Access Denied! Redirecting to /guest...");
             navigate("/guest", { replace: true }); 
         }
     }, [role, navigate]);
